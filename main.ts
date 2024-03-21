@@ -1,6 +1,7 @@
 #! /usr/bin/env mode
 import chalk from "chalk";
 import inquirer from "inquirer";
+import Choice from "inquirer/lib/objects/choice.js";
 
 const result = await inquirer.prompt([
   { 
@@ -42,3 +43,4 @@ if (result.operators === chalk.cyanBright.bold("Addition")) {
 } else {
     console.log(chalk.bgRed.bold("\nYour input is invalid, please try again."));
 }
+console.log(chalk.whiteBright.bold("\nThank you for using my calculator.")) 
