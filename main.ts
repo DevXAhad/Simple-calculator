@@ -1,4 +1,4 @@
-#! /usr/bin/env mode
+#! /usr/bin/env node
 import chalk from "chalk";
 import inquirer from "inquirer";
 import Choice from "inquirer/lib/objects/choice.js";
